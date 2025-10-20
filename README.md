@@ -1,18 +1,24 @@
-# DevOps CI Demo
+Here's a rewritten version of the DevOps CI Demo overview, keeping the context and information the same but aiming for a slightly clearer and more concise presentation:
 
-This project showcases a basic **Continuous Integration (CI)** setup using **GitHub Actions**.
+# Continuous Integration Demo with GitHub Actions 🚀
 
-### Overview
+This project provides a straightforward demonstration of a **Continuous Integration (CI)** pipeline using **GitHub Actions**.
 
-1. A simple Node.js script outputs `"Hello CI from Node.js!"`.
-2. A Jest test verifies that the output is correct.
-3. GitHub Actions automatically executes the tests whenever a Pull Request is opened or updated.
+### Project Summary
+The core of the project is a simple **Node.js** script designed to output the string `"Hello CI from Node.js!"`. A **Jest** unit test is included to verify this specific output.
 
-### Commands
+---
 
-* `npm install` — install project dependencies
-* `npm test` — run all tests
+### CI Pipeline Overview
+The CI workflow, built with **GitHub Actions**, is automatically initiated whenever a **Pull Request (PR)** is opened or updated against the repository. The workflow's primary function is to **execute all tests** (`npm test`), ensuring that the project remains functional and that all checks pass *before* any code can be merged into the main branch.
 
+---
+
+### Key Commands
+To work with this project locally:
+
+* **Install Dependencies:** `npm install`
+* **Run Tests:** `npm test`
 ---
 
 ### GitHub Actions Workflow
