@@ -1,0 +1,33 @@
+{
+  "name": "devops-ci-demo",
+  "version": "1.0.0",
+  "description": "A simple Node.js project demonstrating a GitHub Actions CI workflow. This project prints 'Hello CI' and includes an automated test.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "jest --runInBand --forceExit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sapid47230/DevOps-CI-Demo.git"
+  },
+  "keywords": [
+    "DevOps",
+    "CI",
+    "GitHub Actions",
+    "Node.js"
+  ],
+  "author": "umair gul",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sapid47230/DevOps-CI-Demo/issues"
+  },
+  "homepage": "https://github.com/sapid47230/DevOps-CI-Demo#readme",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^7.1.4"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
