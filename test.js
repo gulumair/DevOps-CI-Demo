@@ -14,3 +14,4 @@ test('should respond with Hello CI from Node.js!', async () => {
   const res = await request(server).get('/');
   expect(res.text).toBe('Hello CI from Node.js!');
 });
+console.log("✅ Hello CI — Workflow ran successfully!");
